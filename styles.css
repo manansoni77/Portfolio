@@ -8,11 +8,19 @@ body {
   height: 100vh;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .section {
   height: 80vh;
   padding-left: 32px;
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 
@@ -21,8 +29,6 @@ body {
 }
 
 .nav {
-  display: flex;
-  flex-direction: row;
   padding: 16px;
   justify-content: flex-end;
   gap: 16px;
