@@ -13,14 +13,16 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="flex-row nav">
+    <div class="flex-row navbar">
       <a class="nav-item">Home</a>
       <a href="#about" class="nav-item">About</a>
       <a class="nav-item">Resume</a>
     </div>
+
     <div id="title" class="flex-row section">
       <h1 class="title">Hi! I'm Manan Soni</h1>
     </div>
+
     <div id="about" class="flex-col section">
       <div class="point">
         <h2>About Me</h2>
@@ -31,6 +33,7 @@
           experiences.
         </p>
       </div>
+
       <div class="point">
         <h2>My Expertise</h2>
         <p>
@@ -42,23 +45,76 @@
         </p>
       </div>
     </div>
-    <div id="projects" class="section">
+
+    <div id="projects" class="flex-row section flex-wrap">
       <div class="card">
         <div class="card-img">
           <img src="img.jpg" />
         </div>
+
         <div class="flex-col">
-          <h3>Project Name</h3>
-          <p>
-            Project Description, some text here that can accurately describe the
-            project...
-          </p>
-          <div>
-            <a>Github</a>
-            <a>Render</a>
+          <div class="flex-col card-content">
+            <h3>Urban Dhaba</h3>
+            <p>
+              Project Description, some text here that can accurately describe
+              the project...
+            </p>
+          </div>
+
+          <div class="card-footer">
+            <a href="https://github.com/manansoni77/Urban-Dhaba">Github</a>
           </div>
         </div>
       </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="img.jpg" />
+        </div>
+
+        <div class="flex-col">
+          <div class="flex-col card-content">
+            <h3>CS50 Finance</h3>
+            <p>
+              Project Description, some text here that can accurately describe
+              the project...
+            </p>
+          </div>
+
+          <div class="card-footer">
+            <a href="https://github.com/manansoni77/CS50-Finance">Github</a>
+            <a href="https://cs50-finance-nx6i.onrender.com">Render</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-img">
+          <img src="img.jpg" />
+        </div>
+
+        <div class="flex-col">
+          <div class="flex-col card-content">
+            <h3>Activity Tracker</h3>
+            <p>
+              Project Description, some text here that can accurately describe
+              the project...
+            </p>
+          </div>
+
+          <div class="card-footer">
+            <a href="https://github.com/manansoni77/ActivityTrackerFlask"
+              >Github</a
+            >
+            <a href="https://activity-v1.onrender.com">Render</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex-col footer">
+      <p>Manan Soni</p>
+      <p>2023</p>
     </div>
   </body>
 </html>
