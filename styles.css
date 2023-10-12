@@ -41,10 +41,21 @@ a:active {
 }
 
 .section {
-  min-height: 80vh;
-  padding: 32px;
+  padding: 56px;
   align-items: center;
   gap: 32px;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.skill-col {
+  min-width: 300px;
+  max-width: 25%;
+  flex-grow: 1;
+  padding: 8px;
+  gap: 8px;
 }
 
 .point {
@@ -53,6 +64,10 @@ a:active {
 
 .title {
   font-size: 64px;
+}
+
+.title-sec {
+  min-height: 80vh;
 }
 
 .navbar {
