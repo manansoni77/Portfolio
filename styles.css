@@ -5,7 +5,8 @@ body {
     rgba(253, 29, 29, 1) 50%,
     rgba(252, 176, 69, 1) 100%
   );
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
 }
 
 /* div {
@@ -55,6 +56,8 @@ a:active {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
   padding: 16px;
   justify-content: flex-end;
   gap: 16px;
