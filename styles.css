@@ -41,6 +41,7 @@ a:active {
 }
 
 .section {
+  min-height: 80vh;
   padding: 56px;
   align-items: center;
   gap: 32px;
@@ -64,10 +65,6 @@ a:active {
 
 .title {
   font-size: 64px;
-}
-
-.title-sec {
-  min-height: 80vh;
 }
 
 .navbar {
